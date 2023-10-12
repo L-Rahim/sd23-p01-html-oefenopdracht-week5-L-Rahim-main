@@ -1,0 +1,75 @@
+* {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+:root {
+    --heading-color: rgb(91, 14, 214);
+    --background-color: rgb(238, 143, 0);
+}
+
+.first{
+    color: red
+}
+
+.second{
+    color: white;
+    background-color: gray;
+}
+
+.third{
+    color: blue
+}
+
+#first{
+    color: green;
+}
+
+
+h1{
+    color: var(--heading-color);
+}
+
+h2{
+    color: var(--heading-color);
+}
+
+article{
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    padding: 100px;
+}
+
+body{
+    background-color: var(--background-color)
+}
+
+a:visited {
+    background-color: white;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+li:nth-child(2) {
+    background-color: aqua;
+}
+
+li:nth-child(4) {
+    background-color: rgb(255, 0, 0);
+}
+
+li:nth-child(6) {
+    background-color: rgb(119, 0, 255);
+}
+
+table, tr, td{
+    border: 1px solid rgb(51, 0, 236);
+    
+}
+
+tr:nth-child(2n){
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+}
+
